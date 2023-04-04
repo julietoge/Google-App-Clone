@@ -1,10 +1,10 @@
 import React from 'react'
-import Goat from './images/MESSI.jpg'
+import Goat from './images/profile.png'
 
 export default function Avatar() {
   return (
     <div>
-      <img src={Goat} alt="messi" style={{ height: "24px", width: "24px" , borderRadius: "50%"}} />
+      <img src={Goat} alt="profile" style={{ height: "28px", width: "28px" , borderRadius: "50%"}} />
     </div>
   )
 }
