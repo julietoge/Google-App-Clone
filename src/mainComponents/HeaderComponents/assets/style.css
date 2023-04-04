@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.app-header-menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#AvatarImg{
+    height: 14px;
+}
