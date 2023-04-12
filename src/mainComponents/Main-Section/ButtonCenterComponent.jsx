@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function ButtonCenterComponent() {
+function ButtonCenterComponent({ ButtonText }) {
   return (
-    <div className='mbutton'>
-    <button className='button'>Google Search</button>
-    <button className='button'>I'm feeling Lucky</button>
-    </div>
-  )
+    <>
+      <button className="button">{ButtonText}</button>
+    </>
+  );
 }
 
 export default ButtonCenterComponent;

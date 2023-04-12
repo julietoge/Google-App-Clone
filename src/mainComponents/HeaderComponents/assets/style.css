@@ -1,20 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .app-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 14px;
-    font-weight: 400;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .app-header-menu {
-    display: flex;
-    align-items: center;
-    gap: 22px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
 }

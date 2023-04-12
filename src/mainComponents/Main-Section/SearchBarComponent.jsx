@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function SearchBarComponent() {
+const SearchBarComponent = () => {
   return (
-    <div>SearchBarComponent</div>
-  )
+    <div id="input-wrapper">
+      <input type="search" className="search-box" id="search-box" />
+    </div>
+  );
 }
 
 export default SearchBarComponent;

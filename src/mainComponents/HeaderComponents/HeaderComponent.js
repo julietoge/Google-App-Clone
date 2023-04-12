@@ -7,8 +7,8 @@ const HeaderComponent = () => {
   return (
     <div className="app-header">
       <div className="app-header-menu">
-        <MenuItem title={"Gmail"} /> 
-        <MenuItem title={"Images"} />
+        <MenuItem MenuText={"Gmail"} /> 
+        <MenuItem MenuText={"Images"} />
         <AppsLauncherIcon />
         <Avatar />
       </div>

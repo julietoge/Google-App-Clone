@@ -1,7 +1,7 @@
 
 
-export default function MenuItem(props) {
+export default function MenuItem({MenuText}) {
   return (
-    <div>{props.title}</div>
+    <div>{MenuText}</div>
   )
 }
